@@ -1,0 +1,18 @@
+# To install this software you'll need to provide the following:
+- C++ compiler supporting C++20
+- CMake >= 3.20
+- CPPCheck
+- Valgrind
+
+# To configure the project type:
+cmake -B <temporary-directory> -S <source-directory>
+
+# Then you can build the project:
+cmake --build <temporary-directory>
+
+# To start application run:
+<temporary-directory>/console/console
+
+# To check tests run:
+ cd <temporary-directory>
+ ctest
